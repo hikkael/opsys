@@ -5,5 +5,10 @@ int main(){
  int *p = &x;
  printf("Address of the integer variable using variable %p \n", &x);
  printf("Address of the integer variable using pointer %p \n", &p);
- return 0;
+ 
+ *p = 11;
+ 
+printf("New value that I definiteley did not forgot about is %d \n" , *p);
+
+return 0;
 }
